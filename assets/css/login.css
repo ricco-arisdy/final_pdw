@@ -1,46 +1,47 @@
 body {
-    font-family: Arial, sans-serif;
-    background: linear-gradient(to right, #FF0000, #0000FF, #000000);
-    margin: 0;
-    padding: 0;
-    background-size: cover;
-    background-image: url(images/Race\ Track\ Wall\ Mural\ Wallpaper.jpg);
-  }
-  .login-logo {
-    float: left;
-    width: 150px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
-    margin-right: 20px;
-  }
-  
-  @keyframes gradientAnimation {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #FF0000, #0000FF, #000000);
+  margin: 0;
+  padding: 0;
+  background-size: cover;
+  background-image: url(images/Race\ Track\ Wall\ Mural\ Wallpaper.jpg);
+}
+
+.login-logo {
+  float: left;
+  width: 150px; /* Sesuaikan ukuran gambar sesuai kebutuhan */
+  margin-right: 20px;
+}
+
+@keyframes gradientAnimation {
   0% { background-position: 0% }
   100% { background-position: 100% }
 }
 
-  .container {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    width: 200vh; 
-    overflow: hidden; /* Menggunakan overflow: hidden agar elemen dengan sudut diagonal tidak keluar dari container */
-  }
-  
-  .login-form {
-    background-color: #a0919191;
-    border-radius: 50px 0 50px 0; /* Mengatur sudut lengkung pada sisi kiri atas dan kiri bawah */
-    padding: 20px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    max-width: 400px;
-    width: 100%;
-    margin-right: 20px;/* Mengatur sudut diagonal pada sisi kiri */
-  }
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 200vh; 
+  overflow: hidden; /* Menggunakan overflow: hidden agar elemen dengan sudut diagonal tidak keluar dari container */
+}
+
+.login-form {
+  background-color: #a0919191;
+  border-radius: 50px 0 50px 0; /* Mengatur sudut lengkung pada sisi kiri atas dan kiri bawah */
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 100%;
+  /* margin-right: 20px; */ /* Hapus baris ini */
+}
   
 
-  .login-title {
-    text-align: center;
-    margin-bottom: 20px;
-  }
+.login-title {
+  text-align: center;
+  margin-bottom: 20px;
+}
 
   .form-group {
     margin-bottom: 15px;
@@ -86,16 +87,13 @@ body {
     }
   
     .container {
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
+      
       height: auto;
       padding: 20px;
     }
   
     .login-form {
       max-width: 300px;
-      margin-right: 0;
       margin-bottom: 10px;
     }
   
