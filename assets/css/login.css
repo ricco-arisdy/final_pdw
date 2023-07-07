@@ -79,6 +79,7 @@ body {
     /* Gaya untuk perangkat seluler dengan lebar maksimum 480px */
     body {
       font-size: 14px;
+      background-size: 50% 50%;
     }
   
     .login-logo {
